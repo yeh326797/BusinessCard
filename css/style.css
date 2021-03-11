@@ -16,9 +16,7 @@ body {
   height: 100%;
   padding: 0px;
   margin: 0px;
-  background-color: #d1d1d1;
-  border-top: solid 20px #f24;
-  border-bottom: solid 20px #f24;
+  background-color: rgba(101, 109, 144, 0.19);
   box-sizing: border-box;
   overflow: hidden;
   position: relative;
@@ -37,7 +35,7 @@ body .namecard {
   background-color: #555;
   letter-spacing: 0.5px;
   font-weight: 100;
-  color: #d1d1d1;
+  color: #fff;
   overflow: hidden;
   border: solid 1px rgba(0, 0, 0, 0.15);
   border-radius: 1px;
@@ -73,7 +71,6 @@ body .namecard .name h2 span {
   font-size: 14px;
 }
 body .namecard .name .title {
-  color: #4b64c8;
   font-weight: 500;
 }
 body .namecard .address {
@@ -90,6 +87,7 @@ body .namecard .five {
   transform: rotate(-47deg);
   left: -77px;
   opacity: 0.5;
+  z-index: -1;
 }
 body .namecard .five:before {
   position: absolute;
