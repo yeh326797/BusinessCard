@@ -1,7 +1,7 @@
 # Business-Card
 
 ### Description
-  _藉由名片複製了解和練習HTML和CSS基礎觀念_
+  藉由名片複製了解和練習HTML和CSS基礎觀念
   
   + HTML建立-Element、Attributes、General Tag
   + CSS寫法、基本屬性、盒模型
